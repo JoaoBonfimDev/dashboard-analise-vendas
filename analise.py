@@ -14,7 +14,11 @@ df["Categoria"] = df["Categoria"].str.title()
 
 df.loc[df["Produto"] == "Webcam HD", "Categoria"] = "Acessórios"
 
+df.loc[df["Produto"] == "Teclado Mecânico", "Categoria"] = "Acessórios"
 
-print(df[df["Categoria"].isna()])
+df.loc[df["Produto"] == "Headset Gamer", "Categoria"] = "Acessórios"
 
-print(df[df["Produto"] == "Teclado Mecânico"])
+
+df.loc[(df["Produto"] == "Webcam HD") & (df["Preco_Unitario"].isna()), "Preco_Unitario"] = 219.90
+
+df.loc[(df["Produto"] == "Cadeira Office") & (df["Preco_Unitario"].isna()), "Preco_Unitario"] = 899.90
