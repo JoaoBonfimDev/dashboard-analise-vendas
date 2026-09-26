@@ -108,6 +108,4 @@ Entre os principais conceitos praticados estão:
 
 **Em desenvolvimento**
 
-Atualmente o projeto está na etapa de **exploração, limpeza e tratamento dos dados**.
-
-As próximas etapas envolverão análise exploratória, criação de KPIs, gráficos e desenvolvimento do dashboard.
+Atualmente o projeto cehgou na parte de criação de Graficos para melhor visualização dos dados tratados
